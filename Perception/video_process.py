@@ -3,6 +3,8 @@ import cv2
 # 这里假设 RTFS 可以通过 URL 或者本地文件访问
 cap = cv2.VideoCapture("rtsp://admin:admin@sk.yunenjoy.cn:35201/main.264")
 
+
+
 while True:
     ret, frame = cap.read()
     if not ret:
